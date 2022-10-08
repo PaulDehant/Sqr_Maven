@@ -4,9 +4,9 @@ import ru.netology.sqr.SqrService;
 public class SqrServiceTest {
 
     @Test
-    public void searchValue() {
+    public void searchValue(){
         SqrService service = new SqrService();
-        int result = service.calcSearchValue(100, 300);
-        System.out.println("Количество совпадений равно" + result);
+        int result= service.calcSearchValue(350, 697);
+        System.out.println("Количество найденных значений, попадающие в диапозон = " + result);
     }
 }
