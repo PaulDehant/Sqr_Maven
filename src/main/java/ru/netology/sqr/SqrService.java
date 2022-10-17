@@ -9,8 +9,9 @@ public class SqrService {
 
             if ((i * i >= minRange) && (i * i <= maxRange)) {
                 result++;
-            }}
-            return result++;
+            }
+        }
+        return result++;
 
     }
 }
